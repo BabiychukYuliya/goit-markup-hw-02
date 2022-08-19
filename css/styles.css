@@ -1,0 +1,197 @@
+:root {
+  /* Fonts */
+  --main-font: Roboto, sans-serif;
+  --secondery-font: Raleway, sans-serif;
+
+  /* Text colors*/
+  --main-txt-cl: #757575;
+  --bold-txt-cl: #212121;
+  --accent-txt-cl: #2196f3;
+  --light-txt-cl: #ffffff;
+
+  /* Background color */
+  --primary-bc-cl: #f5f4fa;
+  --secondary-bc-cl: #2f303a;
+}
+
+/* Основні властивості */
+.page {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+}
+/* Відключаємо підкреслення посилань та крапочки доя списків */
+.list {
+  list-style: none;
+}
+
+.link {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.header {
+  background-color: var(--light-txt-cl);
+}
+
+/* Лого */
+.logo-accent {
+  color: var(--accent-txt-cl);
+}
+.logo {
+  color: black;
+  font-family: var(--secondery-font);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.nav-item .link:hover,
+.nav-item .link:focus {
+  color: var(--accent-txt-cl);
+}
+
+/* Виділення поточної сторінки кольором */
+.nav-item .link.current {
+  color: var(--accent-txt-cl);
+}
+
+.main-nav {
+  font-weight: 500;
+  color: var(--bold-txt-cl);
+  letter-spacing: 0.02em;
+}
+
+.header-cont {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.group :hover,
+.group :focus {
+  color: var(--accent-txt-cl);
+}
+
+/* Секція Hero */
+.section-hero {
+  background-color: var(--secondary-bc-cl);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light-txt-cl);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-txt-cl);
+  cursor: pointer;
+}
+
+/* Оформлення секцій */
+.section {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-txt-cl);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--bold-txt-cl);
+}
+
+.credo-title {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.14;
+  color: var(--bold-txt-cl);
+}
+
+.team-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--bold-txt-cl);
+}
+
+.team-post {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* Оформлення футеру */
+
+.footer {
+  background-color: var(--secondary-bc-cl);
+}
+
+.location {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--light-txt-cl);
+}
+
+.footer-cont {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer :hover,
+.footer :focus {
+  color: var(--accent-txt-cl);
+}
+
+/* Для сторінки Портфоліо */
+.filtr-btn:hover,
+.filtr-btn:focus {
+  color: var(--accent-txt-cl);
+}
+
+.filtr-btn {
+  color: var(--bold-txt-cl);
+  background-color: var(--primary-bc-cl);
+  cursor: pointer;
+}
+
+.title-work {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--bold-txt-cl);
+}
+
+.txt-work {
+  font-size: 16px;
+  line-height: 1.88;
+}
