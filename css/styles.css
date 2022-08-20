@@ -67,10 +67,7 @@
 
 .header-cont {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
 }
 
 .group :hover,
@@ -94,14 +91,12 @@
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--light-txt-cl);
   background-color: var(--accent-txt-cl);
   cursor: pointer;
 }
@@ -138,7 +133,6 @@
 }
 
 .team-post {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -152,7 +146,6 @@
 
 .location {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--light-txt-cl);
@@ -160,7 +153,6 @@
 
 .footer-cont {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -171,6 +163,10 @@
   color: var(--accent-txt-cl);
 }
 
+.light {
+  color: var(--light-txt-cl);
+}
+
 /* Для сторінки Портфоліо */
 .filtr-btn:hover,
 .filtr-btn:focus {
@@ -178,6 +174,10 @@
 }
 
 .filtr-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   color: var(--bold-txt-cl);
   background-color: var(--primary-bc-cl);
   cursor: pointer;
