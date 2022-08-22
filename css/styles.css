@@ -43,7 +43,6 @@
 .logo {
   color: black;
   font-family: var(--secondery-font);
-  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -65,7 +64,7 @@
   letter-spacing: 0.02em;
 }
 
-.header-cont {
+.group {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
